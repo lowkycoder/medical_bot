@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Guide</title>
+    <link rel="stylesheet" href="chat-Style.css">
+</head>
+
+<body>
+
+    <div class="disclaimer-bar">
+        This is an AI chatbot. It can make mistakes.only use it for general information. For medical advice, consult a healthcare professional.
+    </div>
+
+    <main class="chat-container" id="chat-container">
+        <div class="ai-chat-box">
+            <img src="../assets/images/medical-robot.png" alt="AI Avatar" class="avatar">
+            <div class="ai-chat-area">
+                Hello! How can I help you today?
+            </div>
+        </div>
+    </main>
+
+    <div class="suggestion-area" id="suggestion-area">
+        <button class="suggestion-chip">What are common flu symptoms?</button>
+        <button class="suggestion-chip">How to check for a fever?</button>
+        <button class="suggestion-chip">Common cold vs. Allergies</button>
+    </div>
+
+    <form class="prompt-area" id="prompt-form">
+        <input type="text" id="prompt-input" placeholder="Message..." autocomplete="off">
+        <button type="submit" id="submit-button">
+            <img src="../assets/images/arrow.png" alt="Send" width="24" class="send"">
+        </button>
+    </form>
+    
+    <script src=" Script.js"></script>
+</body>
+
+</html>
